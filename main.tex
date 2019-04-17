@@ -1,0 +1,134 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{PRAGYA}{VYAS}
+\address{Apala Girls Hostel, IET Lucknow}{226021 Lucknow}{UP}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{7007422891}                   % optional, remove / comment the line if not wanted
+\email{pragya125vyas@gmail.com}               % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Objective Education}
+\cventry{2016-2020}{B.tech}{Institute of Engineering and Technology, Lucknow}{Lucknow}{\textit{8.77 till 5th sem}} \newline{} % arguments 3 to 6 can be left empty
+\cventry{2014-2015}{Intermediate}{GreenLand Convent Senior Secondary School  Achhnera}{Agra}{\textit{92.6}} \newline %
+
+\section{Career Objective}
+\emph{I aspire to be Data Scientist and I want to work on various new technologies related to this domain.}
+\section{Projects}
+\cvitem{Mocking Bot}{\emph{Detecting Notes, Onsets and Instruments from the various audio files and let that note played by
+the bot on the respective instrument. We classified Instruments using Machine Learning
+Algorithms. There were four instruments Piano, Trumpet, Flute, Violin. We had used Atmega
+2560 for the striking mechanism of Bot. 
+I have made this Project under the Competition E-yantra organised by IIT Bombay. My team
+secured 5th position under this theme.}}
+\cvitem{RESTAURANT MANAGEMENT SYSTEM}{\emph{Managing all the activities in a restaurant using a software system. Here in this project, Customer can book tickets, order food, pay money to the merchant and there was also a billing system.
+}}
+\cvitem{SENDING MAIL using Java}{\emph{Sending a mail to all the recipients in the contact list simultaneously.}}
+
+\section{Training and Internships}
+\cvlistitem{ Certified Coder of Data Structures and Algorithms}
+\cvlistitem{ Certification for 5th rank at EYRC-18}
+\cvlistitem{ Certificate of Merit in ACM-ICPC 2019}
+\cvlistitem{ Certified Python Programmer}
+  \cvlistitem{Coursera Machine Learning Course}
+\subsection{Miscellaneous}
+\cvlistitem{Completed Data structure and Algorithm Courses on Coursera and Python MIT 6.0001 Course}
+
+\section{Technical Skills}
+\cvlistitem{Project management}
+\cvlistitem{Python}
+\cvlistitem{C++}
+\cvlistitem{Microsoft Office}
+\cvlistitem{Codeblocks}
+\cvlistitem{Git}
+\cvlistitem{Anaconda} 
+\cvlistitem{Mysql}
+\cvlistitem{Data Structures and Algorithms}
+\cvlistitem{Windows,Linux}
+\cvlistitem{Data Analysis}
+\section{Soft Skills}
+\cvlistitem{Team Leadership}
+\cvlistitem{Enthusiastic Learner}
+\cvlistitem{Hard-Working}
+\cvlistitem{Good Communication Skills}
+\cvlistitem{Adaptability}
+\cvlistitem{Work Ehic}
+\cvlistitem{Problem Solving} 
+\cvlistitem{Creativity}
+
+\section{Extra Curricular Activities}
+\cvitem{1}{ Elected Head of Parmarth, social club of the college.}
+\cvitem{2}{Assistant Coordinator of various college fests.}
+\cvitem{3}{Volunteer of various college fests.}
+\cvitem{4}{Member of Kriti Society, computer science community of college.}
+
+\section{Co-Curricular Activities}
+\cvlistitem{Novel Reading}
+\cvlistitem{Poem Writing}
+\cvlistitem{Music}
+
+\section{Personal Details}
+\cvitem{Father's Name}{\emph{Laxman Vyas }}
+\cvitem{Mothers's Name}{\emph{Baby Vyas}}
+\cvitem{Sex}{\emph{Female}}
+\cvitem{Date of Birth}{\emph{12.04.1999}}
+\cvitem{Nationality}{\emph{Indian}}
+\cvitem{Martial Status}{\emph{Unmarried}}
+
+
+\section{References}
+\begin{cvcolumns}
+  \cvitem{Dr. Diwakar Singh Yadav}{dsyadav@ietlucknow.ac.in}
+  \cvitem{Dr. Surya P Tripathi}{surya.tripathi@ietlucknow.ac.in}
+\end{cvcolumns}
+
+\section{Declaration}
+\emph{I solemnly declare that all the above furnished information is correct with the best of my knowledge and belief.}
+\section{Date }
+\emph{17-Apr-2019}
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles
+\end{document}
+
+
+%% end of file `template.tex'.
