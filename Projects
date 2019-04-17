@@ -1,0 +1,11 @@
+\section{Projects}
+\cvitem{Mocking Bot}{\emph{Detecting Notes, Onsets and Instruments from the various audio files and let that note played by
+the bot on the respective instrument. We classified Instruments using Machine Learning
+Algorithms. There were four instruments Piano, Trumpet, Flute, Violin. We had used Atmega
+2560 for the striking mechanism of Bot. 
+I have made this Project under the Competition E-yantra organised by IIT Bombay. My team
+secured 5th position under this theme.}}
+\cvitem{RESTAURANT MANAGEMENT SYSTEM}{\emph{Managing all the activities in a restaurant using a software system. Here in this project, Customer can book tickets, order food, pay money to the merchant and there was also a billing system.
+}}
+\cvitem{SENDING MAIL using Java}{\emph{Sending a mail to all the recipients in the contact list simultaneously.}}
+
